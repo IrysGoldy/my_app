@@ -8,3 +8,4 @@ class AddProduct(models.Model):
 
     name = fields.Char(string='Наименование', required=True)
     description = fields.Text(string='Текстовое описание')
+
